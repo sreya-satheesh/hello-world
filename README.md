@@ -1,6 +1,6 @@
 # Hello World! 👋
 
-A **Next.js** web application that lets you explore and compare **simple programming examples** implemented in multiple programming languages.  
+A web application that lets you explore and compare **simple programming examples** implemented in multiple programming languages.  
 Perfect for **developers**, **students**, and **coding enthusiasts** who want to see how the same task is achieved across different syntaxes.
 
 <img width="1917" height="907" alt="Screenshot 2025-08-13 115232" src="https://github.com/user-attachments/assets/d1b7d78e-88e7-4209-b414-c292c39b9264" />
