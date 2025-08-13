@@ -33,9 +33,9 @@ Perfect for **developers**, **students**, and **coding enthusiasts** who want to
 
 ---
 
-## License
+## Live Demo
 
-This project is open source and available under the MIT License.
+https://hello-world-three-pearl-26.vercel.app/
 
 ---
 
