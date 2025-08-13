@@ -1,0 +1,67 @@
+
+[
+  {
+    "name": "JavaScript",
+    "code": "console.log('Hello, World!');"
+  },
+  {
+    "name": "Python",
+    "code": "print('Hello, World!')"
+  },
+  {
+    "name": "Rust",
+    "code": "fn main() {\n    println!(\"Hello, World!\");\n}"
+  },
+  {
+    "name": "Go",
+    "code": "package main\n\nimport \"fmt\"\n\nfunc main() {\n    fmt.Println(\"Hello, World!\")\n}"
+  },
+  {
+    "name": "Java",
+    "code": "class HelloWorld {\n    public static void main(String[] args) {\n        System.out.println(\"Hello, World!\"); \n    }\n}"
+  },
+  {
+    "name": "C#",
+    "code": "using System;\n\nclass Program\n{\n    static void Main()\n    {\n        Console.WriteLine(\"Hello, World!\");\n    }\n}"
+  },
+  {
+    "name": "Ruby",
+    "code": "puts 'Hello, World!'"
+  },
+  {
+    "name": "C++",
+    "code": "#include <iostream>\n\nint main() {\n    std::cout << \"Hello, World!\";\n    return 0;\n}"
+  },
+  {
+    "name": "Swift",
+    "code": "print(\"Hello, World!\")"
+  },
+  {
+    "name": "Kotlin",
+    "code": "fun main() {\n    println(\"Hello, World!\")\n}"
+  },
+  {
+    "name": "PHP",
+    "code": "<?php\n\necho 'Hello, World!';"
+  },
+  {
+    "name": "TypeScript",
+    "code": "console.log('Hello, World!');"
+  },
+  {
+    "name": "Dart",
+    "code": "void main() {\n  print('Hello, World!');\n}"
+  },
+  {
+    "name": "Scala",
+    "code": "object HelloWorld extends App {\n  println(\"Hello, World!\")\n}"
+  },
+  {
+    "name": "Perl",
+    "code": "use strict;\nuse warnings;\n\nprint \"Hello, World!\\n\";"
+  },
+  {
+    "name": "C",
+    "code": "#include <stdio.h>\n\nint main() {\n    printf(\"Hello, World!\\n\");\n    return 0;\n}"
+  }
+]

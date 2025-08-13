@@ -1,0 +1,67 @@
+
+[
+    {
+      "name": "JavaScript",
+      "code": "let str = \"hello\";\nlet reversedStr = str.split('').reverse().join('');\nconsole.log(reversedStr); // \"olleh\""
+    },
+    {
+      "name": "Python",
+      "code": "str = \"hello\"\nreversed_str = str[::-1]\nprint(reversed_str) # \"olleh\""
+    },
+    {
+      "name": "Rust",
+      "code": "fn main() {\n    let s = \"hello\";\n    let reversed: String = s.chars().rev().collect();\n    println!(\"{}\", reversed);\n}"
+    },
+    {
+      "name": "Go",
+      "code": "package main\n\nimport \"fmt\"\n\nfunc main() {\n    str := \"hello\"\n    runes := []rune(str)\n    for i, j := 0, len(runes)-1; i < j; i, j = i+1, j-1 {\n        runes[i], runes[j] = runes[j], runes[i]\n    }\n    fmt.Println(string(runes))\n}"
+    },
+    {
+      "name": "Java",
+      "code": "class ReverseString {\n    public static void main(String[] args) {\n        String str = \"hello\";\n        String reversedStr = new StringBuilder(str).reverse().toString();\n        System.out.println(reversedStr);\n    }\n}"
+    },
+    {
+      "name": "C#",
+      "code": "using System;\nusing System.Linq;\n\nclass Program {\n    static void Main() {\n        string str = \"hello\";\n        string reversedStr = new string(str.ToCharArray().Reverse().ToArray());\n        Console.WriteLine(reversedStr);\n    }\n}"
+    },
+    {
+      "name": "Ruby",
+      "code": "str = \"hello\"\nreversed_str = str.reverse\nputs reversed_str"
+    },
+    {
+      "name": "C++",
+      "code": "#include <iostream>\n#include <string>\n#include <algorithm>\n\nint main() {\n    std::string str = \"hello\";\n    std::reverse(str.begin(), str.end());\n    std::cout << str << std::endl;\n    return 0;\n}"
+    },
+    {
+      "name": "Swift",
+      "code": "let str = \"hello\"\nlet reversedStr = String(str.reversed())\nprint(reversedStr)"
+    },
+    {
+      "name": "Kotlin",
+      "code": "fun main() {\n    val str = \"hello\"\n    val reversedStr = str.reversed()\n    println(reversedStr)\n}"
+    },
+    {
+      "name": "PHP",
+      "code": "<?php\n$str = \"hello\";\n$reversedStr = strrev($str);\necho $reversedStr;\n?>"
+    },
+    {
+      "name": "TypeScript",
+      "code": "let str: string = \"hello\";\nlet reversedStr: string = str.split('').reverse().join('');\nconsole.log(reversedStr);"
+    },
+    {
+      "name": "Dart",
+      "code": "void main() {\n  String str = 'hello';\n  String reversedStr = str.split('').reversed.join('');\n  print(reversedStr);\n}"
+    },
+    {
+      "name": "Scala",
+      "code": "object ReverseString extends App {\n  val str = \"hello\"\n  val reversedStr = str.reverse\n  println(reversedStr)\n}"
+    },
+    {
+      "name": "Perl",
+      "code": "use strict;\nuse warnings;\n\nmy $str = \"hello\";\nmy $reversed_str = reverse $str;\nprint $reversed_str, \"\\n\";"
+    },
+    {
+      "name": "C",
+      "code": "#include <stdio.h>\n#include <string.h>\n\nint main() {\n    char str[] = \"hello\";\n    int n = strlen(str);\n    for (int i = 0; i < n / 2; i++) {\n        char temp = str[i];\n        str[i] = str[n - i - 1];\n        str[n - i - 1] = temp;\n    }\n    printf(\"%s\\n\", str);\n    return 0;\n}"
+    }
+]

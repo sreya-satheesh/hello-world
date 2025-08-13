@@ -1,0 +1,67 @@
+
+[
+  {
+    "name": "JavaScript",
+    "code": "let numbers = [3, 41, 12, 9, 74, 15];\nlet largest = Math.max(...numbers);\nconsole.log(largest); // 74"
+  },
+  {
+    "name": "Python",
+    "code": "numbers = [3, 41, 12, 9, 74, 15]\nlargest = max(numbers)\nprint(largest)  # 74"
+  },
+  {
+    "name": "Rust",
+    "code": "fn main() {\n    let numbers = [3, 41, 12, 9, 74, 15];\n    let largest = numbers.iter().max().unwrap();\n    println!(\"{}\", largest);\n}"
+  },
+  {
+    "name": "Go",
+    "code": "package main\n\nimport \"fmt\"\n\nfunc main() {\n    numbers := []int{3, 41, 12, 9, 74, 15}\n    largest := numbers[0]\n    for _, number := range numbers {\n        if number > largest {\n            largest = number\n        }\n    }\n    fmt.Println(largest)\n}"
+  },
+  {
+    "name": "Java",
+    "code": "import java.util.Arrays;\n\nclass LargestNumber {\n    public static void main(String[] args) {\n        int[] numbers = {3, 41, 12, 9, 74, 15};\n        int largest = Arrays.stream(numbers).max().getAsInt();\n        System.out.println(largest);\n    }\n}"
+  },
+  {
+    "name": "C#",
+    "code": "using System;\nusing System.Linq;\n\nclass Program {\n    static void Main() {\n        int[] numbers = {3, 41, 12, 9, 74, 15};\n        int largest = numbers.Max();\n        Console.WriteLine(largest);\n    }\n}"
+  },
+  {
+    "name": "Ruby",
+    "code": "numbers = [3, 41, 12, 9, 74, 15]\nlargest = numbers.max\nputs largest"
+  },
+  {
+    "name": "C++",
+    "code": "#include <iostream>\n#include <vector>\n#include <algorithm>\n\nint main() {\n    std::vector<int> numbers = {3, 41, 12, 9, 74, 15};\n    int largest = *std::max_element(numbers.begin(), numbers.end());\n    std::cout << largest << std::endl;\n    return 0;\n}"
+  },
+  {
+    "name": "Swift",
+    "code": "let numbers = [3, 41, 12, 9, 74, 15]\nif let largest = numbers.max() {\n    print(largest)\n}"
+  },
+  {
+    "name": "Kotlin",
+    "code": "fun main() {\n    val numbers = listOf(3, 41, 12, 9, 74, 15)\n    val largest = numbers.maxOrNull()\n    println(largest)\n}"
+  },
+  {
+    "name": "PHP",
+    "code": "<?php\n$numbers = [3, 41, 12, 9, 74, 15];\n$largest = max($numbers);\necho $largest;\n?>"
+  },
+  {
+    "name": "TypeScript",
+    "code": "let numbers: number[] = [3, 41, 12, 9, 74, 15];\nlet largest: number = Math.max(...numbers);\nconsole.log(largest);"
+  },
+  {
+    "name": "Dart",
+    "code": "import 'dart:math';\n\nvoid main() {\n  var numbers = [3, 41, 12, 9, 74, 15];\n  var largest = numbers.reduce(max);\n  print(largest);\n}"
+  },
+  {
+    "name": "Scala",
+    "code": "object LargestNumber extends App {\n  val numbers = List(3, 41, 12, 9, 74, 15)\n  val largest = numbers.max\n  println(largest)\n}"
+  },
+  {
+    "name": "Perl",
+    "code": "use strict;\nuse warnings;\nuse List::Util qw(max);\n\nmy @numbers = (3, 41, 12, 9, 74, 15);\nmy $largest = max @numbers;\nprint $largest, \"\\n\";"
+  },
+  {
+    "name": "C",
+    "code": "#include <stdio.h>\n\nint main() {\n    int numbers[] = {3, 41, 12, 9, 74, 15};\n    int n = sizeof(numbers) / sizeof(numbers[0]);\n    int largest = numbers[0];\n    for (int i = 1; i < n; i++) {\n        if (numbers[i] > largest) {\n            largest = numbers[i];\n        }\n    }\n    printf(\"%d\\n\", largest);\n    return 0;\n}"
+  }
+]

@@ -1,0 +1,67 @@
+
+[
+    {
+      "name": "JavaScript",
+      "code": "let num = 10;\nif(num % 2 == 0) {\n    console.log(\"Even\");\n} else {\n    console.log(\"Odd\");\n}"
+    },
+    {
+      "name": "Python",
+      "code": "num = 10\nif num % 2 == 0:\n    print(\"Even\")\nelse:\n    print(\"Odd\")"
+    },
+    {
+      "name": "Rust",
+      "code": "fn main() {\n    let num = 10;\n    if num % 2 == 0 {\n        println!(\"Even\");\n    } else {\n        println!(\"Odd\");\n    }\n}"
+    },
+    {
+      "name": "Go",
+      "code": "package main\n\nimport \"fmt\"\n\nfunc main() {\n    num := 10\n    if num%2 == 0 {\n        fmt.Println(\"Even\")\n    } else {\n        fmt.Println(\"Odd\")\n    }\n}"
+    },
+    {
+      "name": "Java",
+      "code": "class EvenOdd {\n    public static void main(String[] args) {\n        int num = 10;\n        if(num % 2 == 0) {\n            System.out.println(\"Even\");\n        } else {\n            System.out.println(\"Odd\");\n        }\n    }\n}"
+    },
+    {
+      "name": "C#",
+      "code": "using System;\n\nclass Program {\n    static void Main() {\n        int num = 10;\n        if (num % 2 == 0) {\n            Console.WriteLine(\"Even\");\n        } else {\n            Console.WriteLine(\"Odd\");\n        }\n    }\n}"
+    },
+    {
+      "name": "Ruby",
+      "code": "num = 10\nif num.even?\n  puts \"Even\"\nelse\n  puts \"Odd\"\nend"
+    },
+    {
+      "name": "C++",
+      "code": "#include <iostream>\n\nint main() {\n    int num = 10;\n    if (num % 2 == 0) {\n        std::cout << \"Even\";\n    } else {\n        std::cout << \"Odd\";\n    }\n    return 0;\n}"
+    },
+    {
+      "name": "Swift",
+      "code": "let num = 10\nif num % 2 == 0 {\n    print(\"Even\")\n} else {\n    print(\"Odd\")\n}"
+    },
+    {
+      "name": "Kotlin",
+      "code": "fun main() {\n    val num = 10\n    if (num % 2 == 0) {\n        println(\"Even\")\n    } else {\n        println(\"Odd\")\n    }\n}"
+    },
+    {
+      "name": "PHP",
+      "code": "<?php\n$num = 10;\nif($num % 2 == 0){\n    echo \"Even\";\n} else {\n    echo \"Odd\";\n}\n?>"
+    },
+    {
+      "name": "TypeScript",
+      "code": "let num: number = 10;\nif(num % 2 == 0) {\n    console.log(\"Even\");\n} else {\n    console.log(\"Odd\");\n}"
+    },
+    {
+      "name": "Dart",
+      "code": "void main() {\n  var num = 10;\n  if (num % 2 == 0) {\n    print('Even');\n  } else {\n    print('Odd');\n  }\n}"
+    },
+    {
+      "name": "Scala",
+      "code": "object EvenOdd extends App {\n  val num = 10\n  if (num % 2 == 0) println(\"Even\") else println(\"Odd\")\n}"
+    },
+    {
+      "name": "Perl",
+      "code": "use strict;\nuse warnings;\n\nmy $num = 10;\nif ($num % 2 == 0) {\n    print \"Even\\n\";\n} else {\n    print \"Odd\\n\";\n}"
+    },
+    {
+      "name": "C",
+      "code": "#include <stdio.h>\n\nint main() {\n    int num = 10;\n    if(num % 2 == 0) {\n        printf(\"Even\\n\");\n    } else {\n        printf(\"Odd\\n\");\n    }\n    return 0;\n}"
+    }
+]

@@ -1,0 +1,67 @@
+
+[
+  {
+    "name": "JavaScript",
+    "code": "function isPrime(num) {\n    if (num <= 1) return false;\n    for (let i = 2; i * i <= num; i++) {\n        if (num % i === 0) return false;\n    }\n    return true;\n}\nconsole.log(isPrime(7)); // true\nconsole.log(isPrime(10)); // false"
+  },
+  {
+    "name": "Python",
+    "code": "import math\n\ndef is_prime(num):\n    if num <= 1:\n        return False\n    for i in range(2, int(math.sqrt(num)) + 1):\n        if num % i == 0:\n            return False\n    return True\n\nprint(is_prime(7)) # True\nprint(is_prime(10)) # False"
+  },
+  {
+    "name": "Rust",
+    "code": "fn is_prime(n: u32) -> bool {\n    if n <= 1 {\n        return false;\n    }\n    let limit = (n as f64).sqrt() as u32;\n    for i in 2..=limit {\n        if n % i == 0 {\n            return false;\n        }\n    }\n    true\n}\n\nfn main() {\n    println!(\"{}\", is_prime(7));\n    println!(\"{}\", is_prime(10));\n}"
+  },
+  {
+    "name": "Go",
+    "code": "package main\n\nimport (\n\t\"fmt\"\n\t\"math\"\n)\n\nfunc isPrime(num int) bool {\n    if num <= 1 {\n        return false\n    }\n\tlimit := int(math.Sqrt(float64(num)))\n    for i := 2; i <= limit; i++ {\n        if num%i == 0 {\n            return false\n        }\n    }\n    return true\n}\n\nfunc main() {\n    fmt.Println(isPrime(7))\n    fmt.Println(isPrime(10))\n}"
+  },
+  {
+    "name": "Java",
+    "code": "class PrimeNumber {\n    static boolean isPrime(int num) {\n        if (num <= 1) {\n            return false;\n        }\n        for (int i = 2; i * i <= num; i++) {\n            if (num % i == 0) {\n                return false;\n            }\n        }\n        return true;\n    }\n\n    public static void main(String[] args) {\n        System.out.println(isPrime(7));\n        System.out.println(isPrime(10));\n    }\n}"
+  },
+  {
+    "name": "C#",
+    "code": "using System;\n\nclass Program {\n    static bool IsPrime(int number) {\n        if (number <= 1) return false;\n        for (int i = 2; i * i <= number; i++) {\n            if (number % i == 0) return false;\n        }\n        return true;\n    }\n\n    static void Main() {\n        Console.WriteLine(IsPrime(7));\n        Console.WriteLine(IsPrime(10));\n    }\n}"
+  },
+  {
+    "name": "Ruby",
+    "code": "require 'prime'\n\ndef is_prime(num)\n  num.prime?\nend\n\nputs is_prime(7)\nputs is_prime(10)"
+  },
+  {
+    "name": "C++",
+    "code": "#include <iostream>\n#include <cmath>\n\nbool isPrime(int n) {\n    if (n <= 1) return false;\n    for (int i = 2; i * i <= n; i++) {\n        if (n % i == 0) return false;\n    }\n    return true;\n}\n\nint main() {\n    std::cout << std::boolalpha << isPrime(7) << std::endl;\n    std::cout << std::boolalpha << isPrime(10) << std::endl;\n    return 0;\n}"
+  },
+  {
+    "name": "Swift",
+    "code": "import Foundation\n\nfunc isPrime(_ n: Int) -> Bool {\n    guard n > 1 else { return false }\n    let limit = Int(sqrt(Double(n)))\n    guard limit >= 2 else { return true }\n    for i in 2...limit {\n        if n % i == 0 {\n            return false\n        }\n    }\n    return true\n}\n\nprint(isPrime(7))\nprint(isPrime(10))"
+  },
+  {
+    "name": "Kotlin",
+    "code": "import kotlin.math.sqrt\n\nfun isPrime(num: Int): Boolean {\n    if (num <= 1) return false\n    val limit = sqrt(num.toDouble()).toInt()\n    for (i in 2..limit) {\n        if (num % i == 0) return false\n    }\n    return true\n}\n\nfun main() {\n    println(isPrime(7))\n    println(isPrime(10))\n}"
+  },
+  {
+    "name": "PHP",
+    "code": "<?php\nfunction isPrime($num) {\n    if ($num <= 1) return false;\n    for ($i = 2; $i * $i <= $num; $i++) {\n        if ($num % $i == 0) return false;\n    }\n    return true;\n}\n\nvar_dump(isPrime(7));\nvar_dump(isPrime(10));\n?>"
+  },
+  {
+    "name": "TypeScript",
+    "code": "function isPrime(num: number): boolean {\n    if (num <= 1) return false;\n    for (let i = 2; i * i <= num; i++) {\n        if (num % i === 0) return false;\n    }\n    return true;\n}\n\nconsole.log(isPrime(7)); // true\nconsole.log(isPrime(10)); // false"
+  },
+  {
+    "name": "Dart",
+    "code": "import 'dart:math';\n\nbool isPrime(int num) {\n  if (num <= 1) return false;\n  for (int i = 2; i * i <= num; i++) {\n    if (num % i == 0) return false;\n  }\n  return true;\n}\n\nvoid main() {\n  print(isPrime(7));\n  print(isPrime(10));\n}"
+  },
+  {
+    "name": "Scala",
+    "code": "object PrimeNumber extends App {\n  def isPrime(n: Int): Boolean = {\n    if (n <= 1) false\n    else !(2 to math.sqrt(n).toInt).exists(x => n % x == 0)\n  }\n\n  println(isPrime(7))\n  println(isPrime(10))\n}"
+  },
+  {
+    "name": "Perl",
+    "code": "use strict;\nuse warnings;\n\nsub is_prime {\n    my ($num) = @_;\n    return 0 if $num <= 1;\n    for my $i (2 .. sqrt($num)) {\n        return 0 if $num % $i == 0;\n    }\n    return 1;\n}\n\nprint is_prime(7) ? \"true\\n\" : \"false\\n\";\nprint is_prime(10) ? \"true\\n\" : \"false\\n\";"
+  },
+  {
+    "name": "C",
+    "code": "#include <stdio.h>\n#include <stdbool.h>\n#include <math.h>\n\nbool isPrime(int n) {\n    if (n <= 1) return false;\n    for (int i = 2; i * i <= n; i++) {\n        if (n % i == 0) return false;\n    }\n    return true;\n}\n\nint main() {\n    printf(\"%s\\n\", isPrime(7) ? \"true\" : \"false\");\n    printf(\"%s\\n\", isPrime(10) ? \"true\" : \"false\");\n    return 0;\n}"
+  }
+]

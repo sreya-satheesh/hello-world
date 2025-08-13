@@ -1,0 +1,67 @@
+
+[
+  {
+    "name": "JavaScript",
+    "code": "let a = 10;\nlet b = 5;\nconsole.log(a + b); // 15\nconsole.log(a - b); // 5\nconsole.log(a * b); // 50\nconsole.log(a / b); // 2"
+  },
+  {
+    "name": "Python",
+    "code": "a = 10\nb = 5\nprint(a + b) # 15\nprint(a - b) # 5\nprint(a * b) # 50\nprint(a / b) # 2.0"
+  },
+  {
+    "name": "Rust",
+    "code": "fn main() {\n    let a = 10;\n    let b = 5;\n    println!(\"{}\", a + b);\n    println!(\"{}\", a - b);\n    println!(\"{}\", a * b);\n    println!(\"{}\", a / b);\n}"
+  },
+  {
+    "name": "Go",
+    "code": "package main\n\nimport \"fmt\"\n\nfunc main() {\n    a, b := 10, 5\n    fmt.Println(a + b)\n    fmt.Println(a - b)\n    fmt.Println(a * b)\n    fmt.Println(a / b)\n}"
+  },
+  {
+    "name": "Java",
+    "code": "class Arithmetic {\n    public static void main(String[] args) {\n        int a = 10;\n        int b = 5;\n        System.out.println(a + b);\n        System.out.println(a - b);\n        System.out.println(a * b);\n        System.out.println(a / b);\n    }\n}"
+  },
+  {
+    "name": "C#",
+    "code": "using System;\n\nclass Program {\n    static void Main() {\n        int a = 10, b = 5;\n        Console.WriteLine(a + b);\n        Console.WriteLine(a - b);\n        Console.WriteLine(a * b);\n        Console.WriteLine(a / b);\n    }\n}"
+  },
+  {
+    "name": "Ruby",
+    "code": "a = 10\nb = 5\nputs a + b\nputs a - b\nputs a * b\nputs a / b"
+  },
+  {
+    "name": "C++",
+    "code": "#include <iostream>\n\nint main() {\n    int a = 10, b = 5;\n    std::cout << a + b << std::endl;\n    std::cout << a - b << std::endl;\n    std::cout << a * b << std::endl;\n    std::cout << a / b << std::endl;\n    return 0;\n}"
+  },
+  {
+    "name": "Swift",
+    "code": "let a = 10\nlet b = 5\nprint(a + b)\nprint(a - b)\nprint(a * b)\nprint(a / b)"
+  },
+  {
+    "name": "Kotlin",
+    "code": "fun main() {\n    val a = 10\n    val b = 5\n    println(a + b)\n    println(a - b)\n    println(a * b)\n    println(a / b)\n}"
+  },
+  {
+    "name": "PHP",
+    "code": "<?php\n\n$a = 10;\n$b = 5;\necho $a + $b . \"\\n\";\necho $a - $b . \"\\n\";\necho $a * $b . \"\\n\";\necho $a / $b . \"\\n\";"
+  },
+  {
+    "name": "TypeScript",
+    "code": "let a: number = 10;\nlet b: number = 5;\nconsole.log(a + b);\nconsole.log(a - b);\nconsole.log(a * b);\nconsole.log(a / b);"
+  },
+  {
+    "name": "Dart",
+    "code": "void main() {\n  var a = 10, b = 5;\n  print(a + b);\n  print(a - b);\n  print(a * b);\n  print(a / b);\n}"
+  },
+  {
+    "name": "Scala",
+    "code": "object Arithmetic extends App {\n  val a = 10\n  val b = 5\n  println(a + b)\n  println(a - b)\n  println(a * b)\n  println(a / b)\n}"
+  },
+  {
+    "name": "Perl",
+    "code": "use strict;\nuse warnings;\n\nmy $a = 10;\nmy $b = 5;\nprint ($a + $b, \"\\n\");\nprint ($a - $b, \"\\n\");\nprint ($a * $b, \"\\n\");\nprint ($a / $b, \"\\n\");"
+  },
+  {
+    "name": "C",
+    "code": "#include <stdio.h>\n\nint main() {\n    int a = 10, b = 5;\n    printf(\"%d\\n\", a + b);\n    printf(\"%d\\n\", a - b);\n    printf(\"%d\\n\", a * b);\n    printf(\"%d\\n\", a / b);\n    return 0;\n}"
+  }
+]

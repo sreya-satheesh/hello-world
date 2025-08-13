@@ -1,0 +1,67 @@
+
+[
+  {
+    "name": "JavaScript",
+    "code": "function isPalindrome(str) {\n    const reversed = str.split('').reverse().join('');\n    return str === reversed;\n}\nconsole.log(isPalindrome('madam')); // true"
+  },
+  {
+    "name": "Python",
+    "code": "def is_palindrome(s):\n    return s == s[::-1]\n\nprint(is_palindrome('madam'))  # True"
+  },
+  {
+    "name": "Rust",
+    "code": "fn is_palindrome(s: &str) -> bool {\n    s.chars().eq(s.chars().rev())\n}\n\nfn main() {\n    println!(\"{}\", is_palindrome(\"madam\"));\n}"
+  },
+  {
+    "name": "Go",
+    "code": "package main\n\nimport \"fmt\"\n\nfunc isPalindrome(s string) bool {\n    runes := []rune(s)\n    for i, j := 0, len(runes)-1; i < j; i, j = i+1, j-1 {\n        if runes[i] != runes[j] {\n            return false\n        }\n    }\n    return true\n}\n\nfunc main() {\n    fmt.Println(isPalindrome(\"madam\"))\n}"
+  },
+  {
+    "name": "Java",
+    "code": "class Palindrome {\n    static boolean isPalindrome(String str) {\n        return str.equals(new StringBuilder(str).reverse().toString());\n    }\n\n    public static void main(String[] args) {\n        System.out.println(isPalindrome(\"madam\"));\n    }\n}"
+  },
+  {
+    "name": "C#",
+    "code": "using System;\nusing System.Linq;\n\nclass Program {\n    static bool IsPalindrome(string s) {\n        return s.SequenceEqual(s.Reverse());\n    }\n\n    static void Main() {\n        Console.WriteLine(IsPalindrome(\"madam\"));\n    }\n}"
+  },
+  {
+    "name": "Ruby",
+    "code": "def is_palindrome(s)\n  s == s.reverse\nend\n\nputs is_palindrome('madam')"
+  },
+  {
+    "name": "C++",
+    "code": "#include <iostream>\n#include <string>\n#include <algorithm>\n\nbool isPalindrome(const std::string& s) {\n    std::string reversed_s = s;\n    std::reverse(reversed_s.begin(), reversed_s.end());\n    return s == reversed_s;\n}\n\nint main() {\n    std::cout << std::boolalpha << isPalindrome(\"madam\") << std::endl;\n    return 0;\n}"
+  },
+  {
+    "name": "Swift",
+    "code": "func isPalindrome(_ s: String) -> Bool {\n    return s == String(s.reversed())\n}\n\nprint(isPalindrome(\"madam\"))"
+  },
+  {
+    "name": "Kotlin",
+    "code": "fun isPalindrome(s: String): Boolean {\n    return s == s.reversed()\n}\n\nfun main() {\n    println(isPalindrome(\"madam\"))\n}"
+  },
+  {
+    "name": "PHP",
+    "code": "<?php\nfunction isPalindrome($s) {\n    return $s == strrev($s);\n}\n\nvar_dump(isPalindrome('madam'));\n?>"
+  },
+  {
+    "name": "TypeScript",
+    "code": "function isPalindrome(str: string): boolean {\n    const reversed = str.split('').reverse().join('');\n    return str === reversed;\n}\n\nconsole.log(isPalindrome('madam'));"
+  },
+  {
+    "name": "Dart",
+    "code": "bool isPalindrome(String s) {\n  return s == s.split('').reversed.join('');\n}\n\nvoid main() {\n  print(isPalindrome('madam'));\n}"
+  },
+  {
+    "name": "Scala",
+    "code": "object Palindrome extends App {\n  def isPalindrome(s: String): Boolean = {\n    s == s.reverse\n  }\n\n  println(isPalindrome(\"madam\"))\n}"
+  },
+  {
+    "name": "Perl",
+    "code": "use strict;\nuse warnings;\n\nsub is_palindrome {\n    my ($s) = @_;\n    return $s eq reverse $s;\n}\n\nprint is_palindrome('madam') ? \"true\\n\" : \"false\\n\";"
+  },
+  {
+    "name": "C",
+    "code": "#include <stdio.h>\n#include <string.h>\n#include <stdbool.h>\n\nbool isPalindrome(char* str) {\n    int left = 0;\n    int right = strlen(str) - 1;\n    while (right > left) {\n        if (str[left++] != str[right--]) {\n            return false;\n        }\n    }\n    return true;\n}\n\nint main() {\n    printf(\"%s\\n\", isPalindrome(\"madam\") ? \"true\" : \"false\");\n    return 0;\n}"
+  }
+]

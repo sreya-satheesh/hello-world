@@ -1,0 +1,67 @@
+
+[
+  {
+    "name": "JavaScript",
+    "code": "const numbers = [1, 2, 3, 4, 5];\nconst sum = numbers.reduce((acc, curr) => acc + curr, 0);\nconsole.log(sum); // 15"
+  },
+  {
+    "name": "Python",
+    "code": "numbers = [1, 2, 3, 4, 5]\nsum_of_numbers = sum(numbers)\nprint(sum_of_numbers) # 15"
+  },
+  {
+    "name": "Rust",
+    "code": "fn main() {\n    let numbers = [1, 2, 3, 4, 5];\n    let sum: i32 = numbers.iter().sum();\n    println!(\"{}\", sum);\n}"
+  },
+  {
+    "name": "Go",
+    "code": "package main\n\nimport \"fmt\"\n\nfunc main() {\n    numbers := []int{1, 2, 3, 4, 5}\n    sum := 0\n    for _, number := range numbers {\n        sum += number\n    }\n    fmt.Println(sum)\n}"
+  },
+  {
+    "name": "Java",
+    "code": "import java.util.Arrays;\n\nclass SumArray {\n    public static void main(String[] args) {\n        int[] numbers = {1, 2, 3, 4, 5};\n        int sum = Arrays.stream(numbers).sum();\n        System.out.println(sum);\n    }\n}"
+  },
+  {
+    "name": "C#",
+    "code": "using System;\nusing System.Linq;\n\nclass Program {\n    static void Main() {\n        int[] numbers = {1, 2, 3, 4, 5};\n        int sum = numbers.Sum();\n        Console.WriteLine(sum);\n    }\n}"
+  },
+  {
+    "name": "Ruby",
+    "code": "numbers = [1, 2, 3, 4, 5]\nsum = numbers.sum\nputs sum"
+  },
+  {
+    "name": "C++",
+    "code": "#include <iostream>\n#include <vector>\n#include <numeric>\n\nint main() {\n    std::vector<int> numbers = {1, 2, 3, 4, 5};\n    int sum = std::accumulate(numbers.begin(), numbers.end(), 0);\n    std::cout << sum << std::endl;\n    return 0;\n}"
+  },
+  {
+    "name": "Swift",
+    "code": "let numbers = [1, 2, 3, 4, 5]\nlet sum = numbers.reduce(0, +)\nprint(sum)"
+  },
+  {
+    "name": "Kotlin",
+    "code": "fun main() {\n    val numbers = listOf(1, 2, 3, 4, 5)\n    val sum = numbers.sum()\n    println(sum)\n}"
+  },
+  {
+    "name": "PHP",
+    "code": "<?php\n$numbers = [1, 2, 3, 4, 5];\n$sum = array_sum($numbers);\necho $sum;\n?>"
+  },
+  {
+    "name": "TypeScript",
+    "code": "const numbers: number[] = [1, 2, 3, 4, 5];\nconst sum: number = numbers.reduce((acc, curr) => acc + curr, 0);\nconsole.log(sum);"
+  },
+  {
+    "name": "Dart",
+    "code": "void main() {\n  var numbers = [1, 2, 3, 4, 5];\n  var sum = numbers.reduce((a, b) => a + b);\n  print(sum);\n}"
+  },
+  {
+    "name": "Scala",
+    "code": "object SumArray extends App {\n  val numbers = List(1, 2, 3, 4, 5)\n  val sum = numbers.sum\n  println(sum)\n}"
+  },
+  {
+    "name": "Perl",
+    "code": "use strict;\nuse warnings;\nuse List::Util qw(sum);\n\nmy @numbers = (1, 2, 3, 4, 5);\nmy $sum = sum @numbers;\nprint $sum, \"\\n\";"
+  },
+  {
+    "name": "C",
+    "code": "#include <stdio.h>\n\nint main() {\n    int numbers[] = {1, 2, 3, 4, 5};\n    int n = sizeof(numbers) / sizeof(numbers[0]);\n    int sum = 0;\n    for (int i = 0; i < n; i++) {\n        sum += numbers[i];\n    }\n    printf(\"%d\\n\", sum);\n    return 0;\n}"
+  }
+]

@@ -1,0 +1,67 @@
+
+[
+  {
+    "name": "JavaScript",
+    "code": "function fibonacci(n) {\n    if (n <= 1) return n;\n    return fibonacci(n - 1) + fibonacci(n - 2);\n}\nconsole.log(fibonacci(10)); // 55"
+  },
+  {
+    "name": "Python",
+    "code": "def fibonacci(n):\n    if n <= 1:\n        return n\n    else:\n        return fibonacci(n - 1) + fibonacci(n - 2)\nprint(fibonacci(10)) # 55"
+  },
+  {
+    "name": "Rust",
+    "code": "fn fibonacci(n: u32) -> u32 {\n    match n {\n        0 => 0,\n        1 => 1,\n        _ => fibonacci(n - 1) + fibonacci(n - 2),\n    }\n}\nfn main() {\n    println!(\"{}\", fibonacci(10));\n}"
+  },
+  {
+    "name": "Go",
+    "code": "package main\n\nimport \"fmt\"\n\nfunc fibonacci(n int) int {\n    if n <= 1 {\n        return n\n    }\n    return fibonacci(n-1) + fibonacci(n-2)\n}\n\nfunc main() {\n    fmt.Println(fibonacci(10))\n}"
+  },
+  {
+    "name": "Java",
+    "code": "class Fibonacci {\n    static int fibonacci(int n) {\n        if (n <= 1) return n;\n        return fibonacci(n - 1) + fibonacci(n - 2);\n    }\n    public static void main(String[] args) {\n        System.out.println(fibonacci(10));\n    }\n}"
+  },
+  {
+    "name": "C#",
+    "code": "using System;\n\nclass Program {\n    static int Fibonacci(int n) {\n        if (n <= 1) return n;\n        return Fibonacci(n - 1) + Fibonacci(n - 2);\n    }\n    static void Main() {\n        Console.WriteLine(Fibonacci(10));\n    }\n}"
+  },
+  {
+    "name": "Ruby",
+    "code": "def fibonacci(n)\n  n <= 1 ? n : fibonacci(n - 1) + fibonacci(n - 2)\nend\nputs fibonacci(10)"
+  },
+  {
+    "name": "C++",
+    "code": "#include <iostream>\n\nint fibonacci(int n) {\n    if (n <= 1) return n;\n    return fibonacci(n - 1) + fibonacci(n - 2);\n}\n\nint main() {\n    std::cout << fibonacci(10) << std::endl;\n    return 0;\n}"
+  },
+  {
+    "name": "Swift",
+    "code": "func fibonacci(_ n: Int) -> Int {\n    if n <= 1 { return n }\n    return fibonacci(n - 1) + fibonacci(n - 2)\n}\nprint(fibonacci(10))"
+  },
+  {
+    "name": "Kotlin",
+    "code": "fun fibonacci(n: Int): Int {\n    return if (n <= 1) n else fibonacci(n - 1) + fibonacci(n - 2)\n}\nfun main() {\n    println(fibonacci(10))\n}"
+  },
+  {
+    "name": "PHP",
+    "code": "<?php\nfunction fibonacci($n) {\n    if ($n <= 1) return $n;\n    return fibonacci($n - 1) + fibonacci($n - 2);\n}\necho fibonacci(10);\n?>"
+  },
+  {
+    "name": "TypeScript",
+    "code": "function fibonacci(n: number): number {\n    if (n <= 1) return n;\n    return fibonacci(n - 1) + fibonacci(n - 2);\n}\nconsole.log(fibonacci(10));"
+  },
+  {
+    "name": "Dart",
+    "code": "int fibonacci(int n) {\n  if (n <= 1) {\n    return n;\n  }\n  return fibonacci(n - 1) + fibonacci(n - 2);\n}\n\nvoid main() {\n  print(fibonacci(10));\n}"
+  },
+  {
+    "name": "Scala",
+    "code": "object Fibonacci extends App {\n  def fibonacci(n: Int): Int = {\n    if (n <= 1) n else fibonacci(n - 1) + fibonacci(n - 2)\n  }\n  println(fibonacci(10))\n}"
+  },
+  {
+    "name": "Perl",
+    "code": "use strict;\nuse warnings;\n\nsub fibonacci {\n    my ($n) = @_;\n    return $n if $n <= 1;\n    return fibonacci($n - 1) + fibonacci($n - 2);\n}\n\nprint fibonacci(10), \"\\n\";"
+  },
+  {
+    "name": "C",
+    "code": "#include <stdio.h>\n\nint fibonacci(int n) {\n    if (n <= 1) return n;\n    return fibonacci(n - 1) + fibonacci(n - 2);\n}\n\nint main() {\n    printf(\"%d\\n\", fibonacci(10));\n    return 0;\n}"
+  }
+]
