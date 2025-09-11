@@ -1,4 +1,4 @@
-# Hello World! 👋
+# Hello World!
 
 A web application that lets you explore and compare **simple programming examples** implemented in multiple programming languages.  
 Perfect for **developers**, **students**, and **coding enthusiasts** who want to see how the same task is achieved across different syntaxes.
@@ -8,9 +8,9 @@ Perfect for **developers**, **students**, and **coding enthusiasts** who want to
 
 ---
 
-## ✨ Features
+## Features
 
-- **📚 Multiple Program Examples** — Explore 10 popular programming tasks:
+- **Multiple Program Examples** — Explore 10 popular programming tasks:
   1. Hello World!
   2. Arithmetic Operations
   3. Even or Odd
@@ -22,14 +22,14 @@ Perfect for **developers**, **students**, and **coding enthusiasts** who want to
   9. Prime Number Check
   10. Sum of an Array
 
-- **🌐 Wide Range of Languages** — Compare implementations in up to **16 programming languages**, including:
+- **Wide Range of Languages** — Compare implementations in up to **16 programming languages**, including:
   - JavaScript, Python, Rust, Go, Java, C++, and more.
   
-- **💎 Modern UI** — Built with **Tailwind CSS** & **ShadCN/UI** for a clean, responsive, and accessible interface.
+- **Modern UI** — Built with **Tailwind CSS** & **ShadCN/UI** for a clean, responsive, and accessible interface.
 
-- **🌙 Light & Dark Mode** — Switch effortlessly between themes.
+- **Light & Dark Mode** — Switch effortlessly between themes.
 
-- **📱 Fully Responsive** — Works seamlessly across desktops, tablets, and mobile devices.
+- **Fully Responsive** — Works seamlessly across desktops, tablets, and mobile devices.
 
 ---
 
