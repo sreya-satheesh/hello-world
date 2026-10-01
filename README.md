@@ -35,7 +35,7 @@ Perfect for **developers**, **students**, and **coding enthusiasts** who want to
 
 ## Live Demo
 
-[https://hello-world-three-pearl-26.vercel.app/](https://hello-world-one-self.vercel.app/)
+[https://hello-world-one-self.vercel.app//](https://hello-world-one-self.vercel.app/)
 
 ---
 
