@@ -35,7 +35,7 @@ Perfect for **developers**, **students**, and **coding enthusiasts** who want to
 
 ## Live Demo
 
-🔗 **[Try Hello World! Now](https://hello-world-one-self.vercel.app/)**
+🔗 **[Try Hello World Now](https://hello-world-one-self.vercel.app/)**
 
 ---
 
